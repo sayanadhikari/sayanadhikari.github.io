@@ -32,7 +32,7 @@ kernelspec:
 - [Senior Research Fellow](http://www.cppipr.res.in/tsl.html) | [Institute For Plasma Research, India](http://www.ipr.res.in/)
   - Responsibilities:
     - Completed a project on Numerical simulation of Plasma phenomena in sheath region and published several peer-reviewed articles.
-    ### 2014 - 2017
+### 2014 - 2017
 - [Junior Research Fellow](http://www.cppipr.res.in/tsl.html) | [Institute For Plasma Research, India](http://www.ipr.res.in/)
   - Responsibilities:
     - Developed a Particle in Cell (PIC) simulation model for a plasma system to study magnetized plasma surface interaction.

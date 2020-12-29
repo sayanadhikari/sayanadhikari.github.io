@@ -1,0 +1,28 @@
+- file: content/index.md
+
+- part:
+  chapters:
+    - file: content/about_me.md
+    - file: content/research_interests.md
+#     - file: content/research/research
+#     - file: content/cv
+#     - file: content/contact
+#
+# - part: Research
+#   chapters:
+#     - file: content/research/spectraldns
+#     - file: content/research/biomedical
+#     - file: content/research/cmc
+#     - file: content/research/plasma
+#     - file: content/research/numerical
+#     - file: content/research/multiphase
+#
+# - part: Resources
+#   chapters:
+#     - file: content/resources/codes
+#
+# - part: Teaching
+#   chapters:
+#     - file: content/teaching/teaching
+#     - file: content/teaching/japan
+#     - file: content/teaching/students
