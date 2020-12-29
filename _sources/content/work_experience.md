@@ -24,7 +24,8 @@ kernelspec:
 - [Postdoctoral Fellow](http://www.cppipr.res.in/tsl.html) | [Institute For Plasma Research, India](http://www.ipr.res.in/)
   - Responsibilities:
     - Performed numerical investigation and analysis of sheath in communication blackout of space vehicle re-entry.
-    - Taught Computational Physics course to the doctoral students as a part of the Pre-PhD training. ■ Assisted faculty researchers and Ph.D. students in planning and designing research problems.
+    - Taught Computational Physics course to the doctoral students as a part of the Pre-PhD training.
+    - Assisted faculty researchers and Ph.D. students in planning and designing research problems.
     - Presented project results to internal and external bodies.
     - Published academic manuscript in peer-reviewed journals.
     - Acted as a collaborator for Dusty Plasma Laboratory and Inertial Electrostatic Confinement Fusion (IECF) Laboratory.
