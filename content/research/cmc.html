@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turbulent Combustion &#8212; Dr. Sayan Adhikari</title>
+    
+  <link rel="stylesheet" href="../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"TeX": {"Macros": {"bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}, "extensions": ["cancel.js", "AMSmath.js"]}, "tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../index.html">
+  
+  <img src="../../_static/sayan_profile.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">Dr. Sayan Adhikari</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../index.html">
+   Home
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../about_me.html">
+   About Me
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../research_interests.html">
+   Research Interests
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/content/research/cmc.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/sayanadhikari/homesa"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="turbulent-combustion">
+<h1>Turbulent Combustion<a class="headerlink" href="#turbulent-combustion" title="Permalink to this headline">¶</a></h1>
+<p>For my PhD
+thesis, and subsequent year as Post Doc at the University of Sydney, Australia,<br />
+I worked mostly with the <a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S0360128599000064">Conditional Moment Closure</a> (CMC), a
+state-of-the-art model that is used to capture turbulence-chemistry
+interactions (e.g., <a class="bibtex reference internal" href="#mortensen-ces" id="id1">[Mor04]</a><a class="bibtex reference internal" href="#mortensen-ctm" id="id2">[MdBK08]</a>. From 2005-2006 I had the great honour of working with Prof. Robert W. Bilger as a Post Doctoral research fellow at the University of Sydney,
+Australia. In Sydney I worked on CMC for spray combustion <a class="bibtex reference internal" href="#mortensen-bilger" id="id3">[MB09]</a> and a
+version of my consistent turbulent mixer model
+<a class="bibtex reference internal" href="#mortensen-pof" id="id4">[Mor05]</a> that I have called the
+presumed mapping function approach <a class="bibtex reference internal" href="#mortensen2006" id="id5">[MA06]</a><a class="bibtex reference internal" href="#ahmad-2014" id="id6">[SMW14]</a>. The
+presumed mapping functions have been implemented in the open source package
+<a class="reference external" href="http://launchpad.net/pmfpack">PMFpack</a>, available under a GNU Lesser General Public License.
+My work on CMC led to several papers in collaboration with <a class="reference external" href="https://mie.umass.edu/faculty/stephen-de-bruyn-kops">Prof. Steve de Bruyn
+Kops</a>, using very large Direct Numerical Simulations to validate
+turbulence-chemistry models <a class="bibtex reference internal" href="#de2005conditional" id="id7">[dBKM05]</a><a class="bibtex reference internal" href="#cha2006direct" id="id8">[CdBKM06]</a><a class="bibtex reference internal" href="#mortensen2007direct" id="id9">[MdBKC07]</a>.</p>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p id="bibtex-bibliography-content/research/cmc-0"><dl class="citation">
+<dt class="bibtex label" id="cha2006direct"><span class="brackets"><a class="fn-backref" href="#id8">CdBKM06</a></span></dt>
+<dd><p>Chong M. Cha, Stephen M. de Bruyn Kops, and Mikael Mortensen. Direct numerical simulations of the double scalar mixing layer. part i: passive scalar mixing and dissipation. <em>Physics of Fluids</em>, 18(6):067106, 2006. URL: <a class="reference external" href="http://aip.scitation.org/doi/abs/10.1063/1.2213887">http://aip.scitation.org/doi/abs/10.1063/1.2213887</a>, <a class="reference external" href="https://arxiv.org/abs/http://aip.scitation.org/doi/pdf/10.1063/1.2213887">arXiv:http://aip.scitation.org/doi/pdf/10.1063/1.2213887</a>, <a class="reference external" href="https://doi.org/10.1063/1.2213887">doi:10.1063/1.2213887</a>.</p>
+</dd>
+<dt class="bibtex label" id="de2005conditional"><span class="brackets"><a class="fn-backref" href="#id7">dBKM05</a></span></dt>
+<dd><p>Stephen M. de Bruyn Kops and Mikael Mortensen. Conditional mixing statistics in a self-similar scalar mixing layer. <em>Physics of Fluids</em>, 17(9):095107, 2005. URL: <a class="reference external" href="http://dx.doi.org/10.1063/1.2055467">http://dx.doi.org/10.1063/1.2055467</a>, <a class="reference external" href="https://arxiv.org/abs/http://dx.doi.org/10.1063/1.2055467">arXiv:http://dx.doi.org/10.1063/1.2055467</a>, <a class="reference external" href="https://doi.org/10.1063/1.2055467">doi:10.1063/1.2055467</a>.</p>
+</dd>
+<dt class="bibtex label" id="mortensen-ces"><span class="brackets"><a class="fn-backref" href="#id1">Mor04</a></span></dt>
+<dd><p>Mikael Mortensen. Implementation of a conditional moment closure for mixing sensitive reactions. <em>Chemical Engineering Science</em>, 59(24):5709–5723, 2004. URL: <a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S0009250904002829">http://www.sciencedirect.com/science/article/pii/S0009250904002829</a>, <a class="reference external" href="https://doi.org/10.1016/j.ces.2004.05.009">doi:10.1016/j.ces.2004.05.009</a>.</p>
+</dd>
+<dt class="bibtex label" id="mortensen-pof"><span class="brackets"><a class="fn-backref" href="#id4">Mor05</a></span></dt>
+<dd><p>Mikael Mortensen. Consistent modeling of scalar mixing for presumed, multiple parameter probability density functions. <em>Physics of Fluids</em>, 17(1):018106, 2005. URL: <a class="reference external" href="http://dx.doi.org/10.1063/1.1829311">http://dx.doi.org/10.1063/1.1829311</a>, <a class="reference external" href="https://arxiv.org/abs/http://dx.doi.org/10.1063/1.1829311">arXiv:http://dx.doi.org/10.1063/1.1829311</a>, <a class="reference external" href="https://doi.org/10.1063/1.1829311">doi:10.1063/1.1829311</a>.</p>
+</dd>
+<dt class="bibtex label" id="mortensen2006"><span class="brackets"><a class="fn-backref" href="#id5">MA06</a></span></dt>
+<dd><p>Mikael Mortensen and Bengt Andersson. Presumed mapping functions for eulerian modelling of turbulent mixing. <em>Flow, Turbulence and Combustion</em>, 76(2):199–219, Mar 2006. URL: <a class="reference external" href="https://doi.org/10.1007/s10494-006-9011-0">https://doi.org/10.1007/s10494-006-9011-0</a>, <a class="reference external" href="https://doi.org/10.1007/s10494-006-9011-0">doi:10.1007/s10494-006-9011-0</a>.</p>
+</dd>
+<dt class="bibtex label" id="mortensen-bilger"><span class="brackets"><a class="fn-backref" href="#id3">MB09</a></span></dt>
+<dd><p>Mikael Mortensen and Robert W. Bilger. Derivation of the conditional moment closure equations for spray combustion. <em>Combustion and Flame</em>, 156(1):62–72, 2009. URL: <a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S0010218008002319">http://www.sciencedirect.com/science/article/pii/S0010218008002319</a>, <a class="reference external" href="https://doi.org/10.1016/j.combustflame.2008.07.007">doi:10.1016/j.combustflame.2008.07.007</a>.</p>
+</dd>
+<dt class="bibtex label" id="mortensen-ctm"><span class="brackets"><a class="fn-backref" href="#id2">MdBK08</a></span></dt>
+<dd><p>Mikael Mortensen and Stephen M. de Bruyn Kops. Conditional velocity statistics in the double scalar mixing layer - a mapping closure approach. <em>Combustion Theory and Modelling</em>, 12(5):929–941, 2008. URL: <a class="reference external" href="http://www.tandfonline.com/doi/abs/10.1080/13647830802109100">http://www.tandfonline.com/doi/abs/10.1080/13647830802109100</a>, <a class="reference external" href="https://arxiv.org/abs/http://www.tandfonline.com/doi/pdf/10.1080/13647830802109100">arXiv:http://www.tandfonline.com/doi/pdf/10.1080/13647830802109100</a>, <a class="reference external" href="https://doi.org/10.1080/13647830802109100">doi:10.1080/13647830802109100</a>.</p>
+</dd>
+<dt class="bibtex label" id="mortensen2007direct"><span class="brackets"><a class="fn-backref" href="#id9">MdBKC07</a></span></dt>
+<dd><p>Mikael Mortensen, Stephen M. de Bruyn Kops, and Chong M. Cha. Direct numerical simulations of the double scalar mixing layer: part ii: reactive scalars. <em>Combustion and flame</em>, 149(4):392–408, 2007. URL: <a class="reference external" href="http://www.sciencedirect.com/science/article/pii/S0010218007000648">http://www.sciencedirect.com/science/article/pii/S0010218007000648</a>, <a class="reference external" href="https://doi.org/10.1016/j.combustflame.2007.03.001">doi:10.1016/j.combustflame.2007.03.001</a>.</p>
+</dd>
+<dt class="bibtex label" id="ahmad-2014"><span class="brackets"><a class="fn-backref" href="#id6">SMW14</a></span></dt>
+<dd><p>Ahmad El Sayed, Mikael Mortensen, and John Z. Wen. Assessment of the presumed mapping function approach for the stationary laminar flamelet modelling of reacting double scalar mixing layers. <em>Combustion Theory and Modelling</em>, 18(4-5):552–581, 2014. URL: <a class="reference external" href="http://dx.doi.org/10.1080/13647830.2014.939229">http://dx.doi.org/10.1080/13647830.2014.939229</a>, <a class="reference external" href="https://arxiv.org/abs/http://dx.doi.org/10.1080/13647830.2014.939229">arXiv:http://dx.doi.org/10.1080/13647830.2014.939229</a>, <a class="reference external" href="https://doi.org/10.1080/13647830.2014.939229">doi:10.1080/13647830.2014.939229</a>.</p>
+</dd>
+</dl>
+</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "sayanadhikari/homesa",
+            ref: "main",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./content/research"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Sayan Adhikari<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../../_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>
