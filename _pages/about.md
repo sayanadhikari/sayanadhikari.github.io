@@ -16,26 +16,8 @@ Here at [University of Oslo](https://www.uio.no/english/), I am a part of the [4
 
 Apart from research, I like writing [popular science articles](https://gmsciencein.com/user/sayanadhikari207/?profiletab=posts) and spent time in [outreaching students in rural part of India](https://foundation.gmsciencein.com/) to promote science. In spare time, I like building computers especially low-cost clusters using Raspberry Pi.
 
-I am also passionate about nature and wildlife, which led to my interest in Nature Photography. I like to capture moments where I mostly stick with my smartphone compared to Digital Camera. I frequently try to update my [instagram profile](https://www.instagram.com/sayanadhikari207/) with such captures.
+I am also passionate about nature and wildlife, which led to my interest in Nature Photography. I frequently try to update my [instagram page](https://www.instagram.com/sayanadhikari207/) with such captures.
 
-
-# Research Interests
-
-## Primary Research
-* Plasma interaction with spacecraft bodies and Langmuir probes in the polar ionosphere.
-* Ion dynamics and sheath structure in Inertial Electrostatic Confinement Fusion machines.
-* Magnetized Plasma Sheaths.  
-* Dust charging in laboratory and astrophysical plasmas.
-## Numerical Tools/Codes
-- Kinetic
-  - [XOOPIC (X11-based Object Oriented Particle in Cell code), Michigan State University, USA](https://ptsg.egr.msu.edu/).
-  - [PINC (Particle-In-Cell code)](https://github.com/pincproject/PINC), University of Oslo, Norway.
-  - [PICSP (Particle-in-Cell Simulation of Plasma)](https://github.com/sayanadhikari/picsp), Centre of Plasma Physics, Institute for Plasma Research, India.
-  - [Gkeyll Vlasov-Maxwell code](https://gkeyll.readthedocs.io/en/latest/index.html), Princeton Plasma Physics Laboratory (PPPL), USA.
-- Fluid
-  - [IDFM - (Ion Dynamics using Fluid Modeling)](https://github.com/sayanadhikari/ion-dynamics-mag), Centre of Plasma Physics, Institute for Plasma Research, India.
-
-Apart from above, I am also a Python enthusiast and I try to use this language to develop visualization toolkits and basic machine learning models.
 
 <!-- A data-driven personal website
 ======
