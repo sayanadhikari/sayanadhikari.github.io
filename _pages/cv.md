@@ -17,10 +17,14 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2020 -- Present: Postdoctoral Fellow 
+  * [University of Oslo, Oslo, Norway]{https://www.mn.uio.no/fysikk/english/people/aca/sadhi/}
+  * Project: [4DSpace - Strategic Research Initiative]{https://www.mn.uio.no/fysikk/english/research/projects/4dspace/}
+  * Responsibilities:
+    * Simulation of Langmuir probe behavior in the space plasma environment. 
+    * Study of spacecraft charging in ionosphere and analysis I-V characteristics.
+    * Study of lunar sheath in presence of photo-electrons.
+    * Analysis of multi-scale physics from experimental, theoretical and numerical point of view.
 
 * Fall 2015: Research Assistant
   * Github University
