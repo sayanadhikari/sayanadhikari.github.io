@@ -83,13 +83,13 @@ author:
   name             : "Your Sidebar Name"
   avatar           : "sayan_profile.png"
   bio              : "Researcher at University of Oslo, Norway"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  location         : "Oslo, Norway"
+  employer         : "University of Oslo"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=Spae6ssAAAAJ&hl=en"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Sayan-Adhikari"
-  uri              :
+  uri              : "https://www.mn.uio.no/fysikk/english/people/aca/sadhi/index.html"
   bitbucket        :
   codepen          :
   dribbble         :
