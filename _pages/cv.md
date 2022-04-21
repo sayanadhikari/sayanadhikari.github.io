@@ -19,7 +19,7 @@ Education
 
 * 2010 -- 2012: Master of Science
   * [Tezpur University, Tezpur, Assam, India](http://www.tezu.ernet.in)
-  * Physical Science | Major: High Energy Physics
+  * Physical Science, Major: High Energy Physics
 
 
 * 2007 -- 2010: Bachelor of Science
