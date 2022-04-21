@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &sayanadhikari
 facebook:
   username               :
   app_id                 :
@@ -99,10 +99,10 @@ author:
   github           : "sayanadhikari"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "sayanadhikari207"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/sayan-adhikari/"
+  linkedin         : "sayan-adhikari"
   orcid            : "https://orcid.org/0000-0002-9316-3292"
   pinterest        :
   soundcloud       :
