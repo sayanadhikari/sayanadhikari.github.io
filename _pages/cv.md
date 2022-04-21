@@ -51,12 +51,14 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* CODING Experience
+  * [XOOPIC](https://ptsg.egr.msu.edu/#Software), [PINC](https://github.com/pincproject/PINC), [PPDyn](https://github.com/sayanadhikari/PPDyn), [Gkeyll](https://gkyl.readthedocs.io/en/latest/index.html), [Project-Raspberry](https://github.com/projectRaspberry), [PTetra](#)
+* Advanced Knowledge
+  * C/C++, Python, MATLAB, OCTAVE, LaTeX, Linux, Shell Script
+* Intermediate Knowledge
+  * Java, Lua, FEMM, GNUPLOT, Tcl/Tk, HTML, OpenOffice, Microsoft Office, WordPress
+* Basic Knowledge
+  * COMSOL, Mathematica, Solid Works
 
 Publications
 ======
