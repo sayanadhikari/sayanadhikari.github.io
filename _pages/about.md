@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I work as a Postdoctoral Fellow in Space Plasma at the [Department of Physics](https://www.mn.uio.no/fysikk/english/), [University of Oslo](https://www.uio.no/english/), Norway.
+I work as a Researcher in Space Plasma at the [Department of Physics](https://www.mn.uio.no/fysikk/english/), [University of Oslo](https://www.uio.no/english/), Norway.
 
 My primary interests are modeling and simulation of plasma processes in experimental, and natural plasma systems. Along with development, and optimization of computer codes, I like to simulate physical systems.
 
