@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to my homepage!!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I work as a Postdoctoral Fellow in Space Plasma at the [Department of Physics](https://www.mn.uio.no/fysikk/english/), [University of Oslo](https://www.uio.no/english/), Norway.
 
-A data-driven personal website
+My primary interests are modeling and simulation of plasma processes in experimental, and natural plasma systems. Along with development, and optimization of computer codes, I like to simulate physical systems.
+
+Here at [University of Oslo](https://www.uio.no/english/), I am a part of the [4DSpace strategic research initiative](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/), where we study plasma interaction with spacecraft bodies and Langmuir probes in the polar ionosphere.
+
+Apart from research, I like writing [popular science articles](https://gmsciencein.com/user/sayanadhikari207/?profiletab=posts) and spent time in [outreaching students in rural part of India](https://foundation.gmsciencein.com/) to promote science. In spare time, I like building computers especially low-cost clusters using Raspberry Pi.
+
+I am also passionate about nature and wildlife, which led to my interest in Nature Photography. I like to capture moments where I mostly stick with my smartphone compared to Digital Camera. I frequently try to update my [instagram profile](https://www.instagram.com/sayanadhikari207/) with such captures.
+
+<!-- A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
@@ -47,4 +55,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
