@@ -1,0 +1,16 @@
+---
+title: "Electron–neutral collisions effects on Langmuir probe in the lower E-region ionosphere"
+collection: publications
+permalink: /publication/2022-03-21-033511
+excerpt: 'We present the first set of particle-in-cell simulations including Monte Carlo collisions between charged and neutral particles used to simulate a cylindrical Langmuir probe in the electron saturation regime with a collisional electron sheath. We use a setup focused on the E-region ionosphere; however, the results of these simulations are analyzed in a general sense using dimensionless values. We find that the electron currents get enhanced as the collision frequency for electrons increases and the values of λe/λD→1, where λe is the electron mean free path and λD is the electron Debye length. In addition, we apply the simulation results to a sounding rocket experiment and show how we can correct the currents for the Investigation of Cusp Irregularities-4 sounding rocket due to collisions while it flies through the E-region.'
+date: 2022-03-21
+venue: 'Physics of Plasmas'
+paperurl: 'https://aip.scitation.org/doi/pdf/10.1063/5.0079761'
+<!-- citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).' -->
+citation: 'S. M. Brask, S. Marholm, F. Di Mare, S. Adhikari, A. Spicher, T. Takahashi, and W. J. Miloch ,&quot; "Electron–neutral collisions effects on Langmuir probe in the lower E-region ionosphere", <i>Physics of Plasmas</i> 29, 033511 (2022).'
+---
+This paper is about the number 2. The number 3 is left for future work.
+
+[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+
+Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
