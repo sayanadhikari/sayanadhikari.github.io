@@ -6,8 +6,6 @@ redirect_from:
   - /md/
   - /research-interests.html
 ---
-# Research Interests
-
 ## Primary Research
 * Plasma interaction with spacecraft bodies and Langmuir probes in the polar ionosphere.
 * Ion dynamics and sheath structure in Inertial Electrostatic Confinement Fusion machines.
