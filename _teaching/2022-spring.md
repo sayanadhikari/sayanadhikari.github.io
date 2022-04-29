@@ -23,8 +23,8 @@ be able to make a simplified model for the Earth´s magnetosphere, and obtain an
 
 Recommended previous knowledge
 ======
-[FYS2160 – Thermodynamics and Statistical Physics](https://www.uio.no/studier/emner/matnat/fys/FYS2160/index-eng.html)
-[FYS2140 – Quantum Physics](https://www.uio.no/studier/emner/matnat/fys/FYS2140/index-eng.html)
+* [FYS2160 – Thermodynamics and Statistical Physics](https://www.uio.no/studier/emner/matnat/fys/FYS2160/index-eng.html)
+* [FYS2140 – Quantum Physics](https://www.uio.no/studier/emner/matnat/fys/FYS2140/index-eng.html)
 
 Lecture notes and supplementary Materials:
 ======
