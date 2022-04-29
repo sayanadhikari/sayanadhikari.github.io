@@ -30,6 +30,13 @@ Education
 
 Work experience
 ======
+* 2022 --  : Researcher 
+  * [University of Oslo, Oslo, Norway](https://www.mn.uio.no/fysikk/english/people/aca/sadhi/)
+  * Project: [4DSpace - Strategic Research Initiative](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/)
+  * Responsibilities:
+    * Modeling of Rover body in Lunar environment.
+    * Plasma interaction with spacecraft bodies and Langmuir probes in the polar ionosphere.
+
 * 2020 -- 2022: Postdoctoral Fellow 
   * [University of Oslo, Oslo, Norway](https://www.mn.uio.no/fysikk/english/people/aca/sadhi/)
   * Project: [4DSpace - Strategic Research Initiative](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/)
@@ -78,6 +85,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
