@@ -8,9 +8,11 @@ redirect_from:
 ---
 ## Primary Research
 * Plasma interaction with spacecraft bodies and Langmuir probes in the polar ionosphere.
+* Modeling of Rover body in harsh Lunar environment.
+* Plasma material interaction for complex structures. 
 * Ion dynamics and sheath structure in Inertial Electrostatic Confinement Fusion machines.
 * Magnetized Plasma Sheaths.  
-* Dust charging in laboratory and astrophysical plasmas.
+* Dust charging in the laboratory and astrophysical plasmas.
 
 ## Active Projects
 * **Emirates Lunar Mission (ELM)**: 
