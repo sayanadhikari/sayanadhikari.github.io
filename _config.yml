@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sayan Adhikari / Homepage"
+title                    : "Sayan Adhikari"
 title_separator          : "|"
 name                     : &name "Sayan Adhikari"
 description              : &description "Researcher at University of Oslo"
