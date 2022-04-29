@@ -7,17 +7,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Computational Physicist with interest in problems across multidisciplinary topics in the fields of plasma physics, space physics, computer science and mathematics.
+I am a Computational Physicist with an interest in problems across multidisciplinary topics in the fields of plasma physics, space physics, computer science, and mathematics.
 
 I work as a Researcher in Space Plasma at the [Department of Physics](https://www.mn.uio.no/fysikk/english/), [University of Oslo](https://www.uio.no/english/), Norway.
 
-My primary interests are modeling and simulation of plasma processes in experimental, and natural plasma systems. Along with development, and optimization of computer codes, I participate in laboratory experiments and work alongside with teams for space and planetary missions.
+My primary interests are modeling and simulation of plasma processes in experimental and natural plasma systems. Along with developing and optimizing computer codes, I participate in laboratory experiments and work alongside teams for space and planetary missions.
 
 Here at [University of Oslo](https://www.uio.no/english/), I am a part of the [4DSpace strategic research initiative](https://www.mn.uio.no/fysikk/english/research/projects/4dspace/), where we study plasma interaction with spacecraft bodies and Langmuir probes in the polar ionosphere.
 
-Apart from research, I am also passionate about promote science in rural areas especially among unpriviledged students though non-profit organization [GMS Foundation](https://foundation.gmsciencein.com/). I like writing [popular science articles](https://gmsciencein.com/user/sayanadhikari207/?profiletab=posts). 
+Apart from research, I am also passionate about promoting science in rural areas, especially among underprivileged students, through the non-profit organization [GMS Foundation](https://foundation.gmsciencein.com/). I like writing [popular science articles](https://gmsciencein.com/user/sayanadhikari207/?profiletab=posts). 
 
-I often spend time building computers and electronic gagets using Raspberry Pi or Audrino.
+I often spend time building computers and electronic gadgets using Raspberry Pi or Audrino.
 
 
 <!-- A data-driven personal website
