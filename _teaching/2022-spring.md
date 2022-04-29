@@ -29,47 +29,47 @@ Recommended previous knowledge
 Lecture notes and supplementary Materials:
 ======
 ### Materials for Lecture 05 (09.02.2022)
-* Link for the slides: Click here
-* Link for the hands-on code: Click here
+* Link for the slides: [Click here](/files/teaching/Lec05_slides.pdf)
+* Link for the hands-on code: [Click here](/files/teaching/debye_shielding.py)
 * Link for the notes: [Click here](/files/teaching/Lec05_notes.pdf)
 
 ### Materials for Lecture 06 (11.02.2022)
-* Lecture Notes: Click here
+* Lecture Notes: [Click here](/files/teaching/Lec06_notes.pdf)
 
 ### Materials for Lecture 07 (16.02.2022)
 * Lecture Slides: Click here
 * Lecture Notes: 
-  * Collision in Magnetic field
-  * Plasma Sheath
+  * [Collision in Magnetic field](/files/teaching/Lec07a_notes.pdf)
+  * [Plasma Sheath](/files/teaching/Lec07b_notes.pdf)
 
 ### Materials for Lecture 8 (23.02.2022)
-* Lecture Notes: Click here
-* Additional notes
+* Lecture Notes: [Click here](/files/teaching/Lec08_notes.pdf)
+* [Additional notes](/files/teaching/Lec08b_notes.pdf)
 
 ### Materials for Lecture 9 (25.02.2022)
 * Lecture Notes: 
- * Equation of States
- * Dynamic Solutions
+ * [Equation of States](/files/teaching/Lec08b_notes.pdf)
+ * [Dynamic Solutions](/files/teaching/Lec09_notes.pdf)
 
 ### Materials for Lecture 10 (02.03.2022)
-* Lecture Notes: Ideal MHD
+* Lecture Notes: [Ideal MHD](/files/teaching/LEC10.pdf)
 
 ### Materials for Lecture 11 (04.03.2022)
-* Lecture Notes: Click here
+* Lecture Notes: [Click here](/files/teaching/LEC11.pdf)
 
 ### Materials for Lecture 12 (09.03.2022)
 * Lecture Notes:
-  * Magnetic Pressure
-  * Earth's Magnetosphere
+  * Magnetic Pressure: [Click here](/files/teaching/LEC12a.pdf)
+  * Earth's Magnetosphere: [Click here](/files/teaching/LEC12B.pdf)
 
 ### Materials for Lecture 13 (11.03.2022)
-* Lecture Notes: Click here
+* Lecture Notes: [Click here](/files/teaching/LEC13.pdf)
 
 ### Materials for Lecture 14 (16.03.2022)
-* Lecture Notes: Click here
+* Lecture Notes: [Click here](/files/teaching/LEC14.pdf)
 
 ### Materials for Lecture 15 (18.03.2022)
-* Lecture Notes: Click here
+* Lecture Notes: [Click here](/files/teaching/LEC15.pdf)
 
 ### Materials for Lecture 16 (23.03.2022)
-* Lecture Notes: Click here
+* Lecture Notes: [Click here](/files/teaching/LEC-16.pdf)
