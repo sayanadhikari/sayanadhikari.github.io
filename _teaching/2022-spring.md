@@ -31,7 +31,7 @@ Lecture notes and supplementary Materials:
 ### Materials for Lecture 05 (09.02.2022)
 * Link for the slides: Click here
 * Link for the hands-on code: Click here
-* Link for the notes: Lec05_notes.pdf
+* Link for the notes: [Click here](/files/teaching/Lec05_notes.pdf)
 
 ### Materials for Lecture 06 (11.02.2022)
 * Lecture Notes: Click here
