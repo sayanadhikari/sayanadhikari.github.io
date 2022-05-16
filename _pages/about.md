@@ -18,8 +18,6 @@ Here at [University of Oslo](https://www.uio.no/english/), I am a part of the [4
 Apart from research, I am also passionate about promoting science in rural areas, especially among underprivileged students, through the non-profit organization [GMS Foundation](https://foundation.gmsciencein.com/). I like writing [popular science articles](https://gmsciencein.com/user/sayanadhikari207/?profiletab=posts). 
 
 I often spend time building computers and electronic gadgets using Raspberry Pi or Audrino.
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="sayan-adhikari" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://no.linkedin.com/in/sayan-adhikari?trk=profile-badge">Sayan Adhikari, Ph.D.</a></div>
               
 <!-- A data-driven personal website
 ======
