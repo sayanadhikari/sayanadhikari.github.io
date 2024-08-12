@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sayan Adhikari"
 title_separator          : "|"
 name                     : &name "Sayan Adhikari"
-description              : &description "Researcher at University of Oslo"
+description              : &description "Research Scientist at Institute for Energy Technology (IFE)"
 url                      : https://sayanadhikari.github.io # the base hostname & protocol for your site e.g. "https://sayanadhikari.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sayanadhikari/sayanadhikari.github.io"
@@ -82,14 +82,14 @@ analytics:
 author:
   name             : "Sayan Adhikari, Ph.D."
   avatar           : "sayan_profile.png"
-  bio              : "Researcher at University of Oslo, Norway"
-  location         : "Oslo, Norway"
-  employer         : "University of Oslo"
+  bio              : "Research Scientist at Institute for Energy Technology (IFE), Norway"
+  location         : "Kjeller, Norway"
+  employer         : "Institute for Energy Technology (IFE)"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=Spae6ssAAAAJ&hl=en"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Sayan-Adhikari"
-  uri              : "https://www.mn.uio.no/fysikk/english/people/aca/sadhi/index.html"
+  uri              : "https://ife.no/en/employee/sayan-adhikari/"
   bitbucket        :
   codepen          :
   dribbble         :
