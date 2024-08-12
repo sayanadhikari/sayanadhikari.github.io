@@ -22,15 +22,15 @@ I often spend time building computers and electronic gadgets using Raspberry Pi 
 
 ## About Me
 
-I am a **Research Scientist** at the [Institute for Energy Technology (IFE)](https://ife.no/en/) in Norway, specializing in **Computational Physics**. My work primarily focuses on **Numerical Modeling** and **Code Development** for a range of applications. With a PhD in Plasma Physics and over a decade of experience, my expertise spans **Mathematical Modeling**, **Data Visualization**, and **Large-scale Data Processing**.
+I am a **Research Scientist** at the [Institute for Energy Technology (IFE)](https://ife.no/en/) in Norway, specializing in **Computational Physics**. My work primarily focuses on **Mathematical Modeling** and **Code Development** for a range of applications. With a PhD in Plasma Physics and over a decade of experience, my expertise spans **Mathematical Modeling**, **Data Visualization**, and **Large-scale Data Processing**.
 
 ## My Research Interests
 
 My current research interests include:
 
 - **Digital Twins**: Developing data infrastructure for creating digital twins, incorporating tools like Node-RED, InfluxDB, and Grafana.
+- **Multi-Physics Modelling**: Applying Mathematical Modeling including Finite Element Method / CFD  in material processing industries.
 - **Plasma Physics**: Modeling and simulation of plasma processes in both experimental and natural systems.
-- **Multi-Physics Modelling**: Applying the Finite Element Method and Particle-in-Cell (PIC) simulations in material processing industries.
 
 In addition to my computational work, I have a passion for advancing **Energy Technology** and contributing to a more **Sustainable Future**. I am always open to collaboration and discussions on the latest innovations in physics and energy technology.
 
@@ -46,17 +46,6 @@ In addition to my computational work, I have a passion for advancing **Energy Te
 - **Langmuir Probes**: Developed numerical models to study their behavior in space plasma environments.
 - **Digital Content Creation**: Co-founded and managed the [Good Morning Science](https://foundation.gmsciencein.com/) platform, focusing on science communication and education.
 
-## Skills and Tools
-
-I have extensive experience with various programming languages and tools, including:
-
-- **Python**, **C/C++**, **Matlab**, **Java**, **Fortran**
-- **Node-RED**, **InfluxDB**, **Grafana**
-- **Finite Element Method**, **Particle-in-Cell (PIC) simulations**
-
-## Outreach and Passion Projects
-
-Beyond my research, I am committed to **Science Outreach**. As a co-founder of the [GMS Foundation](https://foundation.gmsciencein.com/), I work to promote science education in rural areas, particularly among underprivileged students. I also enjoy writing [popular science articles](https://gmsciencein.com/user/sayanadhikari207/?profiletab=posts) and tinkering with electronics using Raspberry Pi and Arduino.
 
 ## Connect with Me
 
