@@ -1,0 +1,12 @@
+{%- assign pub = include.pub -%}
+{%- capture href -%}{%- if pub.url -%}{{ pub.url }}{%- else -%}https://scholar.google.com/scholar?q={{ pub.title | url_encode }}{%- endif -%}{%- endcapture -%}
+{%- assign topic = site.data.topics[pub.topic] -%}
+<li class="pub" data-year="{{ pub.year }}" data-topic="{{ pub.topic }}" data-type="{{ pub.type }}">
+  <p class="pub__year">{{ pub.year }}</p>
+  <div class="pub__body">
+    <h3 class="pub__title"><a href="{{ href }}" target="_blank" rel="noopener">{{ pub.title }}</a></h3>
+    <p class="pub__authors">{{ pub.authors | replace: "S. Adhikari", "<b>S. Adhikari</b>" }}</p>
+    <p class="pub__venue"><em>{{ pub.venue }}</em></p>
+    <p class="pub__tags"><span class="tag tag--{{ pub.topic }}">{{ topic }}</span>{% if pub.type != "journal" %}<span class="tag tag--type">{{ site.data.topics.types[pub.type] }}</span>{% endif %}</p>
+  </div>
+</li>

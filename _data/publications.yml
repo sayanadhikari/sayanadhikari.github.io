@@ -1,0 +1,301 @@
+# Source: Google Scholar profile and CV. Newest first.
+# topic: industry | space | lab | fusion | sheath     type: journal | preprint | conference | software
+# url: DOI or arXiv link when known; otherwise the page falls back to a Google Scholar search.
+- year: 2026
+  title: "Comparison of humidity-induced stress levels between floating and ground-mounted photovoltaics"
+  authors: "N. Roosloot, D. Lindholm, S. Adhikari, F. Clayer, C. L. DeGasperi, B. A. Denfeld, et al."
+  venue: "Solar Energy 316, 114923"
+  type: journal
+  topic: industry
+- year: 2026
+  title: "PDE-Agents: An LLM-orchestrated multi-agent framework for automated finite element simulations with knowledge graph-augmented reasoning"
+  authors: "S. Adhikari, G. Noorsumar, Ø. Jensen"
+  venue: "arXiv:2606.07850"
+  type: preprint
+  topic: industry
+  url: "https://arxiv.org/abs/2606.07850"
+  featured: true
+- year: 2026
+  title: "Hybrid physics-informed neural network for transient temperature and thermo-mechanical distortion in a three-dimensional casting–mould assembly"
+  authors: "G. Noorsumar, S. Adhikari, D. Mortensen"
+  venue: "WCCM-ECCOMAS 2026, Munich"
+  type: conference
+  topic: industry
+- year: 2026
+  title: "Toward a digital twin: Extrusion die for manufacturing polyphenylene sulfide solar thermal collectors"
+  authors: "D. Lindholm, F. Arbes, M. Meir, J. Rekstad, E. Sørheim, Ø. Jensen, S. Adhikari, et al."
+  venue: "Polymer Engineering & Science 66 (3), 2130–2140"
+  type: journal
+  topic: industry
+  featured: true
+- year: 2025
+  title: "The Langmuir probe instrument on board the Rashid-1 rover of the Emirates Lunar Mission"
+  authors: "L. B. N. Clausen, T. A. Bekkeng, S. Els, M. S. Khoory, A. A. Sharaf, S. Adhikari, et al."
+  venue: "Space Science Reviews 221 (3), 34"
+  type: journal
+  topic: space
+  featured: true
+- year: 2025
+  title: "Enhancing extrusion efficiency: Development of a digital twin for glass reinforced polymer processes using machine learning and real-time data integration"
+  authors: "G. Noorsumar, S. Adhikari, H. G. Fjær, Ø. Jensen, M. Meir"
+  venue: "TMS Annual Meeting & Exhibition, 620–633"
+  type: conference
+  topic: industry
+  featured: true
+- year: 2024
+  title: "Modeling of single and multi-grid IECF device to study plasma particle dynamics"
+  authors: "D. Bhattacharjee, L. Saikia, S. R. Mohanty, S. Adhikari"
+  venue: "Journal of Physics: Conference Series 2919 (1), 012027"
+  type: conference
+  topic: fusion
+- year: 2024
+  title: "Beam–plasma dynamics in finite-length, collisionless inhomogeneous systems"
+  authors: "R. Mishra, R. Moulick, S. Adhikari, S. Marholm, A. J. Eklund, W. J. Miloch"
+  venue: "Physics of Plasmas 31 (10)"
+  type: journal
+  topic: space
+- year: 2024
+  title: "Performance of an inertial electrostatic confinement fusion device having a multi-grid configuration"
+  authors: "L. Saikia, N. Bharali, S. R. Mohanty, S. Adhikari"
+  venue: "Radiation Effects and Defects in Solids 179 (7–8), 861–866"
+  type: journal
+  topic: fusion
+- year: 2024
+  title: "Improvement in ion confinement time with multigrid configuration in an inertial electrostatic confinement fusion device"
+  authors: "L. Saikia, S. Adhikari, S. R. Mohanty, D. Bhattacharjee"
+  venue: "Physical Review E 110 (1), 015203"
+  type: journal
+  topic: fusion
+- year: 2024
+  title: "Charge fluctuations on the dust grains in the presence of energetic electrons"
+  authors: "R. Paul, G. Sharma, K. Deka, R. Moulick, S. Adhikari, S. S. Kausik, B. K. Saikia"
+  venue: "Physica Scripta 99 (6), 065602"
+  type: journal
+  topic: lab
+- year: 2024
+  title: "Self-organising phenomena in 2D complex plasma simulations with non-mono dispersed dust size distributions"
+  authors: "G. Holen, S. Adhikari, R. Mishra, W. J. Miloch"
+  venue: "Physica Scripta 99 (5), 055606"
+  type: journal
+  topic: lab
+- year: 2024
+  title: "Particle-in-cell simulation of electrostatic waves in the ionosphere"
+  authors: "R. Moulick, S. Adhikari, G. Sharma, B. K. Saikia, W. J. Miloch"
+  venue: "Advances in Space Research 73 (9), 4393–4413"
+  type: journal
+  topic: space
+- year: 2023
+  title: "Study of a collisionless magnetized plasma sheath with nonextensively distributed species"
+  authors: "R. Paul, K. Deka, G. Sharma, R. Moulick, S. Adhikari, S. S. Kausik, B. K. Saikia"
+  venue: "Plasma Science and Technology 25 (12), 125001"
+  type: journal
+  topic: sheath
+- year: 2023
+  title: "Effect of external magnetic field and dust grains on the properties of ion-acoustic waves"
+  authors: "K. Deka, R. Paul, G. Sharma, N. Das, S. Adhikari, R. Moulick, S. S. Kausik, B. K. Saikia, O. H. Chin, C. S. Wong"
+  venue: "Journal of Plasma Physics 89 (5), 905890502"
+  type: journal
+  topic: lab
+- year: 2023
+  title: "Effect of positive polarity in an inertial electrostatic confinement fusion device: Electron confinement, X-ray production, and radiography"
+  authors: "D. Bhattacharjee, S. R. Mohanty, S. Adhikari"
+  venue: "Fusion Science and Technology 79 (6), 671–682"
+  type: journal
+  topic: fusion
+- year: 2023
+  title: "Secondary electron emission and collisional effects in a two-electron temperature plasma sheath"
+  authors: "G. Sharma, R. Paul, K. Deka, R. Moulick, S. Adhikari, S. S. Kausik, B. K. Saikia"
+  venue: "Contributions to Plasma Physics 63 (3–4), e202300020"
+  type: journal
+  topic: sheath
+- year: 2023
+  title: "Electron temperature inference from fixed bias Langmuir probe set-ups in ionospheric conditions"
+  authors: "F. Enengl, S. Marholm, S. Adhikari, R. Marchand, W. J. Miloch"
+  venue: "EGU General Assembly, EGU23-542"
+  type: conference
+  topic: space
+- year: 2023
+  title: "Study of plasma sheath in the presence of dust particles in a magnetic mirror-like field configuration"
+  authors: "K. Deka, G. Sharma, R. Paul, R. Moulick, S. Adhikari, S. S. Kausik, B. K. Saikia"
+  venue: "Physica Scripta 98 (4), 045608"
+  type: journal
+  topic: sheath
+- year: 2023
+  title: "Studies on ion flow dynamics in a disk-shaped inertial electrostatic confinement fusion device under the influence of a triple grid arrangement"
+  authors: "L. Saikia, D. Bhattacharjee, S. R. Mohanty, S. Adhikari"
+  venue: "Physics of Plasmas 30 (2)"
+  type: journal
+  topic: fusion
+- year: 2023
+  title: "Study of two-electron temperature plasma sheath using non-extensive electron distribution in presence of an external magnetic field"
+  authors: "G. Sharma, R. Paul, K. Deka, R. Moulick, S. Adhikari, S. S. Kausik, B. K. Saikia"
+  venue: "AIP Advances 13 (1), 015011"
+  type: journal
+  topic: sheath
+- year: 2022
+  title: "Electron temperature inference from multiple fixed bias Langmuir probes"
+  authors: "F. Enengl, S. Marholm, S. Adhikari, R. Marchand, W. J. Miloch"
+  venue: "ESS Open Archive"
+  type: preprint
+  topic: space
+- year: 2022
+  title: "Understanding the surface wave characteristics using 2D particle-in-cell simulation and deep neural network"
+  authors: "R. Mishra, S. Adhikari, R. Mukherjee, B. J. Saikia"
+  venue: "Physics of Plasmas 29 (6), 062104"
+  type: journal
+  topic: lab
+  url: "https://arxiv.org/abs/2112.06884"
+- year: 2022
+  title: "Current-driven Langmuir oscillations and streaming instabilities"
+  authors: "S. Marholm, S. Adhikari, W. J. Miloch"
+  venue: "arXiv:2203.07467"
+  type: preprint
+  topic: space
+  url: "https://arxiv.org/abs/2203.07467"
+- year: 2022
+  title: "Electron–neutral collisions effects on Langmuir probe in the lower E-region ionosphere"
+  authors: "S. M. Brask, S. Marholm, F. Di Mare, S. Adhikari, A. Spicher, T. Takahashi, W. J. Miloch"
+  venue: "Physics of Plasmas 29, 033511"
+  type: journal
+  topic: space
+  url: "https://doi.org/10.1063/5.0079761"
+- year: 2022
+  title: "Experimental study of charging of dust grains in the presence of energetic electrons"
+  authors: "R. Paul, G. Sharma, K. Deka, S. Adhikari, R. Moulick, S. S. Kausik, B. K. Saikia"
+  venue: "Plasma Physics and Controlled Fusion 64, 035009"
+  type: journal
+  topic: lab
+  url: "https://doi.org/10.1088/1361-6587/ac44e5"
+- year: 2022
+  title: "Experimental study on controlled production of two-electron temperature plasma"
+  authors: "G. Sharma, K. Deka, R. Paul, S. Adhikari, R. Moulick, S. S. Kausik, B. K. Saikia"
+  venue: "Plasma Sources Science and Technology 31, 025013"
+  type: journal
+  topic: lab
+  url: "https://doi.org/10.1088/1361-6595/ac4c4b"
+- year: 2022
+  title: "Study of ion-acoustic waves in two-electron temperature plasma"
+  authors: "G. Sharma, K. Deka, R. Paul, S. Adhikari, R. Moulick, S. S. Kausik, B. K. Saikia"
+  venue: "Selected Progresses in Modern Physics: Proceedings of TiMP 2021, 355–361"
+  type: conference
+  topic: lab
+- year: 2022
+  title: "Study of plasma sheath in the presence of dust particles in an inhomogeneous magnetic field"
+  authors: "K. Deka, R. Paul, G. Sharma, S. Adhikari, R. Moulick, S. S. Kausik, B. K. Saikia"
+  venue: "Selected Progresses in Modern Physics: Proceedings of TiMP 2021, 363–373"
+  type: conference
+  topic: sheath
+- year: 2021
+  title: "Effect of collisions on the plasma sheath in the presence of an inhomogeneous magnetic field"
+  authors: "K. Deka, S. Adhikari, R. Moulick, S. S. Kausik, B. K. Saikia"
+  venue: "Physica Scripta 96, 075606"
+  type: journal
+  topic: sheath
+  url: "https://doi.org/10.1088/1402-4896/abfc81"
+- year: 2021
+  title: "Development of a deep neural network model for spacecraft charging"
+  authors: "S. Adhikari, R. Mukherjee, S. Marholm, W. Miloch"
+  venue: "APS Division of Plasma Physics Meeting, PP11.158"
+  type: conference
+  topic: space
+- year: 2021
+  title: "Finite-length effects on beam–plasma instability in collisionless inhomogeneous systems"
+  authors: "S. Adhikari, S. Marholm, A. J. Eklund, W. J. Miloch"
+  venue: "arXiv:2109.01431"
+  type: preprint
+  topic: space
+  url: "https://arxiv.org/abs/2109.01431"
+- year: 2021
+  title: "A Langmuir probe system on-board the Emirates Lunar Mission's Rashid rover"
+  authors: "S. G. Els, T. Bekkeng, L. Clausen, S. Adhikari, A. Eklund, W. Miloch, et al."
+  venue: "72nd International Astronautical Congress (IAC 2021)"
+  type: conference
+  topic: space
+- year: 2020
+  title: "Kinetic characteristics of ions in an inertial electrostatic confinement device"
+  authors: "D. Bhattacharjee, N. Buzarbaruah, S. R. Mohanty, S. Adhikari"
+  venue: "Physical Review E 102, 063205"
+  type: journal
+  topic: fusion
+  url: "https://doi.org/10.1103/PhysRevE.102.063205"
+- year: 2020
+  title: "Magnetized plasma sheath in the presence of negative ions"
+  authors: "R. Paul, S. Adhikari, R. Moulick, S. S. Kausik, B. K. Saikia"
+  venue: "Physics of Plasmas 27, 063520"
+  type: journal
+  topic: sheath
+  url: "https://doi.org/10.1063/5.0004796"
+- year: 2020
+  title: "Effect of two temperature electrons in a collisional magnetized plasma sheath"
+  authors: "G. Sharma, S. Adhikari, R. Moulick, S. S. Kausik, B. K. Saikia"
+  venue: "Physica Scripta 95, 035605"
+  type: journal
+  topic: sheath
+  url: "https://doi.org/10.1088/1402-4896/ab5548"
+- year: 2019
+  title: "Evolution of dust ion acoustic soliton in the presence of superthermal electrons"
+  authors: "D. Dutta, S. Adhikari, R. Moulick, K. S. Goswami"
+  venue: "Physica Scripta 94, 125210"
+  type: journal
+  topic: lab
+  url: "https://doi.org/10.1088/1402-4896/ab3a5b"
+- year: 2019
+  title: "Sheath formation in collisional, low pressure, and magnetized plasma"
+  authors: "R. Moulick, S. Adhikari, K. S. Goswami"
+  venue: "Physics of Plasmas 26, 043512"
+  type: journal
+  topic: sheath
+  url: "https://doi.org/10.1063/1.5090537"
+- year: 2018
+  title: "Correlation between two non-linear events in a dusty plasma system"
+  authors: "R. Mishra, S. Adhikari, R. Mukherjee, M. Dey"
+  venue: "Physics of Plasmas 25, 123703"
+  type: journal
+  topic: lab
+  url: "https://doi.org/10.1063/1.5066427"
+- year: 2018
+  title: "Ion dynamics in a magnetized source-collector sheath"
+  authors: "S. Adhikari, R. Moulick, K. S. Goswami"
+  venue: "Physics of Plasmas 25, 094504"
+  type: journal
+  topic: sheath
+  url: "https://doi.org/10.1063/1.5045186"
+- year: 2018
+  title: "Estimation of the reduction of sputtering for fusion grade materials after disappearance of the Debye sheath"
+  authors: "S. Adhikari, R. Moulick, K. S. Goswami"
+  venue: "Indian Journal of Physics 92, 259–270"
+  type: journal
+  topic: fusion
+  url: "https://doi.org/10.1007/s12648-017-1088-x"
+- year: 2017
+  title: "Criterion of sheath formation in magnetized low pressure plasma"
+  authors: "R. Moulick, S. Adhikari, K. S. Goswami"
+  venue: "Physics of Plasmas 24, 114501"
+  type: journal
+  topic: sheath
+  url: "https://doi.org/10.1063/1.4994261"
+- year: 2017
+  title: "A dynamic analysis of the magnetized plasma sheath in a collisionless scenario with ion sources"
+  authors: "S. Adhikari, R. Moulick, K. S. Goswami"
+  venue: "Physics of Plasmas 24, 083501"
+  type: journal
+  topic: sheath
+  url: "https://doi.org/10.1063/1.4994535"
+- year: 2015
+  title: "Development of a 3D-3V PIC code to study PSI processes in tokamak divertor region"
+  authors: "S. Adhikari, K. S. Goswami"
+  venue: "10th Asia Plasma and Fusion Association Conference"
+  type: conference
+  topic: fusion
+- year: 2015
+  title: "Estimate on the physical sputtering of divertor armor materials"
+  authors: "S. Adhikari, D. Dutta, R. Moulick, K. S. Goswami"
+  venue: "30th National Symposium on Plasma Science and Technology"
+  type: conference
+  topic: fusion
+- year: 2014
+  title: "Erosion due to ion sputtering in absence of Debye sheath at divertor plates: PIC simulation"
+  authors: "K. S. Goswami, S. Adhikari"
+  venue: "APS Division of Plasma Physics Meeting, PO7.009"
+  type: conference
+  topic: fusion

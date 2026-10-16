@@ -1,0 +1,10 @@
+{%- case include.id -%}
+{%- when "twins" -%}
+<svg viewBox="0 0 64 64"><rect x="6" y="14" width="22" height="36" rx="3" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="36" y="14" width="22" height="36" rx="3" fill="none" stroke="currentColor" stroke-width="2.5" stroke-dasharray="4 3"/><path d="M10 40l5-7 4 4 5-9M40 40l5-7 4 4 5-9" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M28 24h8M28 40h8" stroke="currentColor" stroke-width="2.5" marker-end=""/></svg>
+{%- when "fem" -%}
+<svg viewBox="0 0 64 64"><path d="M8 52 32 8l24 44Z M20 30h24 M32 52 20 30 M32 52l12-22 M14 41h36 M26 41l6-11 6 11" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+{%- when "agents" -%}
+<svg viewBox="0 0 64 64"><circle cx="32" cy="14" r="7" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="12" cy="48" r="7" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="52" cy="48" r="7" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M28 20 15 41M36 20l13 21M19 48h26" stroke="currentColor" stroke-width="2.5"/><circle cx="32" cy="36" r="3" fill="currentColor"/></svg>
+{%- when "plasma" -%}
+<svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="5" fill="currentColor"/><ellipse cx="32" cy="32" rx="26" ry="10" fill="none" stroke="currentColor" stroke-width="2.5" transform="rotate(-30 32 32)"/><ellipse cx="32" cy="32" rx="26" ry="10" fill="none" stroke="currentColor" stroke-width="2.5" transform="rotate(30 32 32)"/></svg>
+{%- endcase -%}

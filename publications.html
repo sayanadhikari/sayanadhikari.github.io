@@ -1,0 +1,42 @@
+---
+title: "Publications"
+description: "Journal articles, preprints and conference papers by Sayan Adhikari."
+permalink: /publications/
+redirect_from:
+  - /publication/
+  - /publication/2021-05-10-075606
+  - /publication/2022-01-18-025013
+  - /publication/2022-01-26-035009
+  - /publication/2022-03-14-ARXIV
+  - /publication/2022-03-21-033511
+  - /publication/2022-03-21-ARXIV
+  - /publication/2022-03-31-ARXIV
+---
+{% assign pubs = site.data.publications %}
+<header class="pagehead">
+  <div class="wrap">
+    <h1>Publications</h1>
+    <p class="pagehead__lede">{{ pubs | size }} journal articles, preprints and conference papers since 2014. Cited {{ site.data.profile.scholar_stats.citations }} times, h-index {{ site.data.profile.scholar_stats.h_index }} on <a href="https://scholar.google.com/citations?user=Spae6ssAAAAJ&hl=en">Google Scholar</a> ({{ site.data.profile.scholar_stats.as_of }}).</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="filters" role="search">
+    <label class="search">
+      <span class="sr-only">Search publications</span>
+      <input type="search" id="pub-search" placeholder="Search by title, author or journal" autocomplete="off">
+    </label>
+    <div class="chips" role="group" aria-label="Filter by topic">
+      <button class="chip" type="button" data-topic="all" aria-pressed="true">All</button>
+      {% for t in site.data.topics %}{% unless t[0] == "types" %}
+      <button class="chip chip--{{ t[0] }}" type="button" data-topic="{{ t[0] }}" aria-pressed="false">{{ t[1] }} <span class="chip__n">{{ pubs | where: "topic", t[0] | size }}</span></button>
+      {% endunless %}{% endfor %}
+    </div>
+    <p class="filters__count muted" id="pub-count" aria-live="polite"></p>
+  </div>
+
+  <ol class="publist publist--full" id="publist">
+    {% for pub in pubs %}{% include pub.html pub=pub %}{% endfor %}
+  </ol>
+  <p class="empty" id="pub-empty" hidden>No publications match that search. Clear the search box or pick another topic.</p>
+</div>

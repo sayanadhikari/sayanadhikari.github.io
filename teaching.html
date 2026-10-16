@@ -1,0 +1,52 @@
+---
+title: "Teaching"
+description: "Lecture notes and materials for FYS4620/9620, An Introduction to Plasma Physics, University of Oslo, spring 2022."
+permalink: /teaching/
+redirect_from:
+  - /teaching/2022-spring
+  - /teaching/2022-spring/
+lectures:
+  - { n: "05", date: "9 Feb 2022", title: "Debye shielding", files: [ { label: "Slides", url: "/files/teaching/Lec05_slides.pdf" }, { label: "Notes", url: "/files/teaching/Lec05_notes.pdf" }, { label: "Python code", url: "/files/teaching/debye_shielding.py", code: true } ] }
+  - { n: "06", date: "11 Feb 2022", title: "Lecture notes", files: [ { label: "Notes", url: "/files/teaching/Lec06_notes.pdf" } ] }
+  - { n: "07", date: "16 Feb 2022", title: "Collisions in a magnetic field and the plasma sheath", files: [ { label: "Collisions in a magnetic field", url: "/files/teaching/Lec07a_notes.pdf" }, { label: "Plasma sheath", url: "/files/teaching/Lec07b_notes.pdf" } ] }
+  - { n: "08", date: "23 Feb 2022", title: "Lecture notes", files: [ { label: "Notes", url: "/files/teaching/Lec08_notes.pdf" }, { label: "Additional notes", url: "/files/teaching/Additional_Lec08_notes.pdf" } ] }
+  - { n: "09", date: "25 Feb 2022", title: "Equations of state and dynamic solutions", files: [ { label: "Equations of state", url: "/files/teaching/Lec08b_notes.pdf" }, { label: "Dynamic solutions", url: "/files/teaching/Lec09_notes.pdf" } ] }
+  - { n: "10", date: "2 Mar 2022", title: "Ideal MHD", files: [ { label: "Notes", url: "/files/teaching/LEC10.pdf" } ] }
+  - { n: "11", date: "4 Mar 2022", title: "Ideal MHD and Faraday's law", files: [ { label: "Notes", url: "/files/teaching/LEC11.pdf" } ] }
+  - { n: "12", date: "9 Mar 2022", title: "Magnetic pressure and Earth's magnetosphere", files: [ { label: "Magnetic pressure", url: "/files/teaching/LEC12a.pdf" }, { label: "Earth's magnetosphere", url: "/files/teaching/LEC12B.pdf" } ] }
+  - { n: "13", date: "11 Mar 2022", title: "Dynamic solutions to the MHD equations, Alfvén waves", files: [ { label: "Notes", url: "/files/teaching/LEC13.pdf" }, { label: "Compressional Alfvén waves", url: "/files/teaching/Compressional-Alfvén-Waves.pdf" } ] }
+  - { n: "14", date: "16 Mar 2022", title: "Compressional Alfvén waves", files: [ { label: "Notes", url: "/files/teaching/LEC14.pdf" } ] }
+  - { n: "15", date: "18 Mar 2022", title: "Ideal electron MHD", files: [ { label: "Notes", url: "/files/teaching/LEC15.pdf" } ] }
+  - { n: "16", date: "23 Mar 2022", title: "Plasma as a mixture of charged gases", files: [ { label: "Notes", url: "/files/teaching/LEC-16.pdf" } ] }
+---
+<header class="pagehead">
+  <div class="wrap">
+    <h1>Teaching</h1>
+    <p class="pagehead__lede">Lecture materials from the plasma physics course I taught at the University of Oslo. Earlier, I taught computational physics to doctoral students at the Centre of Plasma Physics in India.</p>
+  </div>
+</header>
+
+<div class="wrap course">
+  <h2>FYS4620/9620, An Introduction to Plasma Physics</h2>
+  <p class="course__meta">Postgraduate course, Department of Physics, University of Oslo. Spring 2022.</p>
+  <div class="prose">
+    <p>The course covers the basic principles of plasmas, waves in plasma, and the stability of equilibrium solutions, with examples from the Earth's ionosphere and magnetosphere. Students learn to formulate the fluid equations for plasma from MHD to kinetic scales, derive dispersion relations, and build a simplified model of the magnetosphere.</p>
+    <p>Recommended background: <a href="https://www.uio.no/studier/emner/matnat/fys/FYS2160/index-eng.html">FYS2160 Thermodynamics and Statistical Physics</a> and <a href="https://www.uio.no/studier/emner/matnat/fys/FYS2140/index-eng.html">FYS2140 Quantum Physics</a>.</p>
+  </div>
+
+  <h3 class="cv__sub">Lectures</h3>
+  <ol class="lectures">
+    {% for l in page.lectures %}
+    <li class="lecture">
+      <span class="lecture__n" aria-hidden="true">{{ l.n }}</span>
+      <div>
+        <h3>{% if l.title == "Lecture notes" %}Lecture {{ l.n | plus: 0 }}{% else %}{{ l.title }}{% endif %}</h3>
+        <p>{{ l.date }}</p>
+        <ul>
+          {% for f in l.files %}<li><a href="{{ f.url | relative_url }}">{% if f.code %}{% include icon.html name="code" %}{% else %}{% include icon.html name="pdf" %}{% endif %} {{ f.label }}</a></li>{% endfor %}
+        </ul>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</div>

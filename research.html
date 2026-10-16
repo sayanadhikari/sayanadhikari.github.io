@@ -1,0 +1,78 @@
+---
+title: "Research"
+description: "Research themes of Sayan Adhikari: digital twins, multiphysics and FEM modelling, agentic AI for simulation, and plasma and space physics."
+permalink: /research/
+redirect_from:
+  - /research-interests/
+  - /research-interests.html
+  - /md/
+---
+<header class="pagehead">
+  <div class="wrap">
+    <h1>Research</h1>
+    <p class="pagehead__lede">Four threads run through my work. The first three are what I do at IFE today; the fourth is where the methods came from.</p>
+    <nav class="jumpnav" aria-label="Research themes">
+      {% for t in site.data.research %}<a href="#{{ t.id }}">{{ t.title }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
+
+<div class="wrap research">
+  {% for t in site.data.research %}
+  <section class="rtheme" id="{{ t.id }}" aria-labelledby="{{ t.id }}-h">
+    <div class="rtheme__side">
+      <div class="theme__glyph theme--{{ t.id }}" aria-hidden="true">{% include glyph.html id=t.id %}</div>
+    </div>
+    <div class="rtheme__main">
+      <h2 id="{{ t.id }}-h">{{ t.title }}</h2>
+      <p class="rtheme__summary">{{ t.summary }}</p>
+      <ul class="ticks">
+        {% for pt in t.points %}<li>{{ pt }}</li>{% endfor %}
+      </ul>
+      {% if t.id == "twins" or t.id == "agents" %}
+      <p class="rtheme__more"><a class="textlink" href="{{ '/publications/?topic=industry' | relative_url }}">Related publications</a></p>
+      {% elsif t.id == "plasma" %}
+      <p class="rtheme__more"><a class="textlink" href="{{ '/publications/?topic=space' | relative_url }}">Space plasma papers</a> <a class="textlink" href="{{ '/publications/?topic=sheath' | relative_url }}">Sheath physics papers</a></p>
+      {% endif %}
+    </div>
+  </section>
+  {% endfor %}
+
+  <section class="rtheme" id="missions" aria-labelledby="missions-h">
+    <div class="rtheme__side"></div>
+    <div class="rtheme__main">
+      <h2 id="missions-h">Space missions I contributed to</h2>
+      <div class="missions">
+        <article>
+          <h3>Emirates Lunar Mission</h3>
+          <p>The Rashid rover carried a Langmuir probe from the University of Oslo to study the plasma and dust environment at the lunar surface. I modelled the probe's response to the photoelectron sheath.</p>
+          <p class="links"><a href="https://scholar.google.com/scholar?q=The+Langmuir+probe+instrument+on+board+the+Rashid-1+rover+of+the+Emirates+Lunar+Mission">Space Science Reviews paper, 2025</a> <a href="https://www.nature.com/articles/d41586-020-03054-1">Nature news</a> <a href="https://eidel.no/en/articles/going-to-the-moon/">Going to the Moon</a></p>
+        </article>
+        <article>
+          <h3>NanoMagSat</h3>
+          <p>A nanosatellite constellation for mapping the geomagnetic field and ionospheric environment. I worked on simulations of the multi-needle Langmuir probe design.</p>
+          <p class="links"><a href="https://presentations.copernicus.org/EGU21/EGU21-14660_presentation.pdf">EGU 2021 presentation</a></p>
+        </article>
+        <article>
+          <h3>Daedalus</h3>
+          <p>A proposed low-flying spacecraft to explore the lower thermosphere and ionosphere, where collisions between charged and neutral particles change how probes respond.</p>
+          <p class="links"><a href="https://daedalus.earth/">Mission site</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="rtheme" id="codes" aria-labelledby="codes-h">
+    <div class="rtheme__side"></div>
+    <div class="rtheme__main">
+      <h2 id="codes-h">Codes</h2>
+      <p class="rtheme__summary">Most of my research runs on code I wrote or helped extend. These are the ones that are public.</p>
+      <ul class="codes">
+        {% for c in site.data.cv.codes_developed %}
+        <li><a href="{{ c.url }}">{% include icon.html name="code" %} {{ c.name }}</a><span>{{ c.desc }}</span></li>
+        {% endfor %}
+      </ul>
+      <p class="muted">I have also worked with the kinetic codes {{ site.data.cv.codes_used | join: ", " }}.</p>
+    </div>
+  </section>
+</div>

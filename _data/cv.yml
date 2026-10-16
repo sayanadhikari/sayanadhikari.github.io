@@ -1,0 +1,122 @@
+experience:
+  - period: "2022 – present"
+    title: "Research Scientist"
+    org: "Institute for Energy Technology (IFE), Kjeller, Norway"
+    unit: "Computational Materials Processing (MatPro)"
+    url: "https://ife.no/en/"
+    points:
+      - "Internal project leader for SUCCEED, an IPN project building a real-time digital twin of a high-performance polymer extrusion line for solar collectors (Inaventa Solar, Omipa, Solvay, Fraunhofer ISE)."
+      - "Digital twin work for the Inaventa Solar use case in the Horizon Europe project FLEX4FACT."
+      - "R&D work in SAGA, Smart Aluminium for Grid and Energy Applications, an IPN project led by Hydro Aluminium (2026 to 2030)."
+      - "Develops finite element modelling suites for large industrial projects in aluminium casting and material processing."
+      - "Builds digital twin frameworks and AI tools for industrial processes in the aluminium, battery and solar sectors, including physics-informed neural network surrogates for casting."
+      - "Created PDE-Agents, an agentic framework that sets up, runs and analyses FEM and CFD simulations on local open models."
+      - "Writes and coordinates proposals for the Research Council of Norway (IPN, KSP) and Horizon Europe."
+  - period: "2022"
+    title: "Researcher"
+    org: "University of Oslo, Norway"
+    unit: "Department of Physics, Section for Plasma and Space Physics"
+    url: "https://www.mn.uio.no/fysikk/english/"
+    points:
+      - "Lead computational physicist for environmental studies of space instruments in the Emirates Lunar Mission, NanoMagSat and Daedalus (4DSpace strategic research initiative)."
+      - "Course instructor for FYS4620/9620, An Introduction to Plasma Physics."
+      - "Co-supervised a Master's thesis on complex plasma physics."
+  - period: "2020 – 2022"
+    title: "Postdoctoral Fellow"
+    org: "University of Oslo, Norway"
+    unit: "Department of Physics, Section for Plasma and Space Physics"
+    url: "https://www.mn.uio.no/fysikk/english/research/projects/4dspace/"
+    points:
+      - "Simulated Langmuir probe behaviour in space plasma, including the probe on the Rashid rover of the Emirates Lunar Mission."
+      - "Studied spacecraft charging in the ionosphere and analysed probe I-V characteristics (NanoMagSat, Daedalus)."
+      - "Modelled the lunar photoelectron sheath."
+      - "Organised the workshop on the finite element PIC code PTetra (2022)."
+  - period: "2017 – 2022"
+    title: "Co-founder, CTO and Creative Director"
+    org: "Good Morning Science, India"
+    unit: "Science communication platform, alongside research"
+    url: "https://foundation.gmsciencein.com/"
+    points:
+      - "Built and ran the web platform and app, and led digital content creation and distribution."
+      - "Edited and reviewed popular science articles."
+  - period: "2018 – 2020"
+    title: "Postdoctoral Fellow"
+    org: "Centre of Plasma Physics, Institute for Plasma Research, Assam, India"
+    unit: "Theory and Simulation Laboratory"
+    url: "http://www.cppipr.res.in/"
+    points:
+      - "Led a project on the role of the plasma sheath in communication blackout during space vehicle re-entry."
+      - "Taught computational physics to doctoral students in the pre-PhD programme."
+      - "Collaborated with the Dusty Plasma and Inertial Electrostatic Confinement Fusion laboratories."
+  - period: "2012 – 2017"
+    title: "Junior and Senior Research Fellow"
+    org: "Centre of Plasma Physics, Institute for Plasma Research, Assam, India"
+    unit: "Theory and Simulation Laboratory"
+    url: "http://www.cppipr.res.in/"
+    points:
+      - "Developed a particle-in-cell model of a magnetised plasma to study plasma surface interaction."
+      - "Numerical simulation of plasma phenomena in the sheath region."
+
+education:
+  - period: "2012 – 2019"
+    degree: "Ph.D. in Plasma Physics"
+    org: "Gauhati University, India"
+    detail: "Carried out at the Centre of Plasma Physics, Institute for Plasma Research. Thesis: Study of edge physics in magnetised plasma. Advisor: Prof. K. S. Goswami."
+  - period: "2010 – 2012"
+    degree: "M.Sc. in Physical Science"
+    org: "Tezpur University, India"
+    detail: "Major in high energy physics."
+  - period: "2007 – 2010"
+    degree: "B.Sc. in Physical Science"
+    org: "University of Calcutta, India"
+    detail: "Ramakrishna Mission Residential College, Narendrapur."
+
+skills:
+  - group: "Modelling methods"
+    items: [Finite Element Method, Multiphysics, Particle-in-Cell, Fluid and CFD, Monte Carlo collisions, Reduced order models, Physics-informed neural networks]
+  - group: "AI and data"
+    items: [Agentic AI and LLM tool use, Machine learning, Knowledge graphs, Large-scale data processing, Data visualisation]
+  - group: "Digital twin stack"
+    items: [Node-RED, InfluxDB, Grafana, Docker and Podman, Building automation]
+  - group: "Languages"
+    items: [Python, C/C++, Fortran, MATLAB, Java, Lua, Shell]
+  - group: "Tools"
+    items: [OpenFOAM, Gmsh, ParaView, COMSOL, HPC and Linux, LaTeX]
+
+codes_developed:
+  - { name: "PDE-Agents", desc: "Multi-agent LLM framework for automated finite element simulations", url: "https://arxiv.org/abs/2606.07850" }
+  - { name: "PPDyn", desc: "Plasma particle dynamics, a molecular dynamics code for complex plasma", url: "https://github.com/sayanadhikari/PPDyn" }
+  - { name: "PICSP", desc: "Particle-in-cell simulation of plasma", url: "https://github.com/sayanadhikari/picsp" }
+  - { name: "IDFM", desc: "Ion dynamics in magnetised sheaths using fluid modelling", url: "https://github.com/sayanadhikari/ion-dynamics-mag" }
+  - { name: "deepRadiation", desc: "Neural network models for plasma radiation", url: "https://github.com/Neural-Plasma" }
+  - { name: "DSMCPy, deepDiffusion", desc: "Direct simulation Monte Carlo and neural diffusion solvers", url: "https://github.com/sayanadhikari" }
+  - { name: "Project Raspberry", desc: "Raspberry Pi projects for science outreach", url: "https://github.com/projectRaspberry" }
+
+codes_used: [PTetra, PUNC++, PINC, XOOPIC, Gkeyll, OpenFOAM]
+
+certifications:
+  - { year: "2024", title: "OpenFOAM Foundation Course", org: "OpenCFD Limited" }
+  - { year: "2018", title: "The Finite Element Method for Problems in Physics", org: "University of Michigan" }
+  - { year: "2016", title: "Distributed Computing for Plasma Simulations", org: "Particle In Cell Consulting" }
+  - { year: "2015", title: "Advanced PIC Techniques; Fundamentals of the Particle In Cell Method", org: "Particle In Cell Consulting" }
+
+talks:
+  - { date: "2026-08-27", title: "LLM agents meet the finite element method", kind: "Webinar", venue: "DigiPro Centre", place: "Online", url: "https://digipro-centre.no/" }
+  - { date: "2022-11-04", title: "A ride to the Moon", kind: "Invited talk", venue: "Department of Physics, Sikkim University", place: "Gangtok, India" }
+  - { date: "2021-08-18", title: "Understanding photoelectron sheath in light of Langmuir probe data", kind: "Talk", venue: "Lunar Surface Science Workshop, Lunar and Planetary Institute", place: "Houston, USA (virtual)" }
+  - { date: "2020-07-22", title: "An insider's look at space missions", kind: "Invited webinar", venue: "National webinar, Department of Physics, B. N. College", place: "Dhubri, India" }
+  - { date: "2018-10-29", title: "Ion dynamics in a magnetized source-collector sheath", kind: "Contributed talk", venue: "Joint ICTP-IAEA College on Plasma Physics", place: "Trieste, Italy", url: "http://indico.ictp.it/event/8335/session/26/contribution/116" }
+  - { date: "2018-03-24", title: "Kinetic effects in magnetized plasma sheaths", kind: "Talk", venue: "6th PSSI Plasma Scholars Colloquium, Sikkim Manipal Institute of Technology", place: "Majitar, India" }
+
+organised:
+  - { year: "2022", title: "Workshop on the finite element PIC code PTetra", place: "University of Oslo (virtual)", url: "https://4dspace-uio.github.io/PTetraWorkshop" }
+  - { year: "2019", title: "Symposium on Recent Trends in Basic Plasma Research", place: "CPP-IPR, Assam", url: "http://www.cppipr.res.in/conf/RTBPR-2019.html" }
+  - { year: "2019", title: "National Science Day celebration", place: "CPP-IPR, Assam", url: "http://www.cppipr.res.in/nsd/nsd-2019.html" }
+  - { year: "2014", title: "Workshop on Linear Tokamak Divertor Simulators for PSI Studies", place: "CPP-IPR, Assam" }
+
+reviewing:
+  summary: "Referee for journals in plasma physics, applied physics and power engineering."
+  journals: [Physics of Plasmas, Physica Scripta, Plasma Physics and Controlled Fusion, Journal of Physics D Applied Physics, IEEE Transactions on Plasma Science, IEEE Transactions on Power Delivery]
+
+outreach:
+  - "Co-founded the GMS Foundation, which brings science to underprivileged students in rural India, and writes popular science articles for its Good Morning Science platform."

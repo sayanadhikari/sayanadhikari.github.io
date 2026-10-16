@@ -1,0 +1,33 @@
+# Research themes shown on the home and research pages.
+- id: twins
+  title: "Digital twins for the process industry"
+  summary: "Live models of real production lines. I combine physics-based simulation with sensor data so operators can see what is happening inside a die, a mould or a casting line, and act on it."
+  points:
+    - "Data infrastructure for acquisition and monitoring with Node-RED, InfluxDB and Grafana"
+    - "Digital twin of an extrusion die for polymer solar thermal collectors"
+    - "Machine learning on real-time data for glass reinforced polymer extrusion"
+    - "Applications in aluminium, battery and solar manufacturing"
+- id: fem
+  title: "Multiphysics and finite element modelling"
+  summary: "Thermo-mechanical and flow models of material processing, built to run inside industrial projects rather than only in papers."
+  points:
+    - "FEM simulation of continuous casting of aluminium for defect prediction"
+    - "Casting and rolling chain models for grid conductors with high scrap content"
+    - "Reduced order models and physics-informed neural network surrogates"
+    - "CFD with OpenFOAM, meshing with Gmsh, post-processing with ParaView"
+- id: agents
+  title: "Agentic AI for simulation"
+  summary: "Teams of LLM agents that read a problem in plain language, build the mesh, run the solver and check the result, backed by a knowledge graph of the physics."
+  points:
+    - "PDE-Agents: an LLM-orchestrated multi-agent framework for automated FEM"
+    - "Simulation, process-data and sensor-fusion agents with a shared ontology"
+    - "Explainable operator interfaces for closed-loop process control"
+    - "Benchmarking open-weight models for reliable tool calling"
+- id: plasma
+  title: "Plasma and space physics"
+  summary: "Where I started: kinetic and fluid simulation of plasma sheaths, probes and spacecraft charging, from laboratory devices to the ionosphere and the Moon."
+  points:
+    - "Langmuir probe modelling for the Rashid rover of the Emirates Lunar Mission"
+    - "Spacecraft charging and probe I-V characteristics in the polar ionosphere"
+    - "Magnetised plasma sheaths, dusty plasma and beam-plasma instabilities"
+    - "Ion dynamics in inertial electrostatic confinement fusion devices"

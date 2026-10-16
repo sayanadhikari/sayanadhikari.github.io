@@ -1,0 +1,106 @@
+---
+title: "CV"
+description: "Curriculum vitae of Sayan Adhikari: experience, education, skills, talks and service."
+permalink: /cv/
+redirect_from:
+  - /resume/
+  - /talks/
+  - /talks.html
+---
+{% assign cv = site.data.cv %}
+<header class="pagehead">
+  <div class="wrap">
+    <h1>Curriculum vitae</h1>
+    <p class="pagehead__lede">Research scientist with 12+ years of experience developing mathematical models and software for laboratory, space and industrial environments, using finite element, particle-in-cell and fluid methods.</p>
+    <nav class="jumpnav" aria-label="CV sections">
+      <a href="#experience">Experience</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#talks">Talks</a><a href="#service">Service</a>
+    </nav>
+    <p class="print-hide"><button class="btn btn--outline" type="button" onclick="window.print()">Print or save as PDF</button></p>
+  </div>
+</header>
+
+<div class="wrap cv">
+  <section id="experience" class="cv__block" aria-labelledby="exp-h">
+    <h2 id="exp-h">Experience</h2>
+    <ol class="timeline">
+      {% for e in cv.experience %}
+      <li>
+        <p class="timeline__when">{{ e.period }}</p>
+        <div class="timeline__body">
+          <h3>{{ e.title }}</h3>
+          <p class="timeline__org"><a href="{{ e.url }}">{{ e.org }}</a><br><span class="muted">{{ e.unit }}</span></p>
+          <ul>{% for pt in e.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section id="education" class="cv__block" aria-labelledby="edu-h">
+    <h2 id="edu-h">Education</h2>
+    <ol class="timeline">
+      {% for e in cv.education %}
+      <li>
+        <p class="timeline__when">{{ e.period }}</p>
+        <div class="timeline__body">
+          <h3>{{ e.degree }}</h3>
+          <p class="timeline__org">{{ e.org }}</p>
+          <p>{{ e.detail }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+    <h3 class="cv__sub">Certifications</h3>
+    <ul class="plainlist">
+      {% for c in cv.certifications %}<li><span class="plainlist__k">{{ c.year }}</span> {{ c.title }}, <span class="muted">{{ c.org }}</span></li>{% endfor %}
+    </ul>
+  </section>
+
+  <section id="skills" class="cv__block" aria-labelledby="skills-h">
+    <h2 id="skills-h">Skills</h2>
+    <div class="skills">
+      {% for g in cv.skills %}
+      <div class="skills__group">
+        <h3>{{ g.group }}</h3>
+        <ul class="pills">{% for i in g.items %}<li>{{ i }}</li>{% endfor %}</ul>
+      </div>
+      {% endfor %}
+    </div>
+    <h3 class="cv__sub">Codes developed</h3>
+    <ul class="codes">
+      {% for c in cv.codes_developed %}<li><a href="{{ c.url }}">{% include icon.html name="code" %} {{ c.name }}</a><span>{{ c.desc }}</span></li>{% endfor %}
+    </ul>
+    <p class="muted">Also used: {{ cv.codes_used | join: ", " }}. Languages spoken: {{ site.data.profile.languages | join: ", " }}.</p>
+  </section>
+
+  <section id="talks" class="cv__block" aria-labelledby="talks-h">
+    <h2 id="talks-h">Talks</h2>
+    <ul class="plainlist plainlist--talks">
+      {% for t in cv.talks %}
+      <li>
+        <span class="plainlist__k">{{ t.date | date: "%b %Y" }}</span>
+        <span><strong>{% if t.url %}<a href="{{ t.url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</strong><br><span class="muted">{{ t.kind }}, {{ t.venue }}, {{ t.place }}</span></span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section id="service" class="cv__block" aria-labelledby="service-h">
+    <h2 id="service-h">Service and outreach</h2>
+    <h3 class="cv__sub">Peer review</h3>
+    <p>{{ cv.reviewing.summary }} {{ cv.reviewing.journals | join: ", " }}.</p>
+    <h3 class="cv__sub">Events organised</h3>
+    <ul class="plainlist">
+      {% for o in cv.organised %}<li><span class="plainlist__k">{{ o.year }}</span> <span>{% if o.url %}<a href="{{ o.url }}">{{ o.title }}</a>{% else %}{{ o.title }}{% endif %}, <span class="muted">{{ o.place }}</span></span></li>{% endfor %}
+    </ul>
+    <h3 class="cv__sub">Teaching and supervision</h3>
+    <p>Course instructor for <a href="{{ '/teaching/' | relative_url }}">FYS4620/9620, An Introduction to Plasma Physics</a> at the University of Oslo (2022). Taught computational physics in the pre-PhD programme at CPP-IPR (2018 to 2020). Co-supervised a Master's thesis on complex plasma.</p>
+    <h3 class="cv__sub">Outreach</h3>
+    {% for o in cv.outreach %}<p>{{ o }}</p>{% endfor %}
+  </section>
+
+  <section class="cv__block" aria-labelledby="cvpubs-h">
+    <h2 id="cvpubs-h">Publications</h2>
+    <p>{{ site.data.publications | size }} items, listed with search and topic filters on the <a href="{{ '/publications/' | relative_url }}">publications page</a>.</p>
+  </section>
+</div>

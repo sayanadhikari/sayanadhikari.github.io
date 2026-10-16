@@ -1,0 +1,154 @@
+---
+title: "Sayan Adhikari, computational physicist"
+description: "Research Scientist at IFE, Norway. Multiphysics modelling, digital twins and agentic AI for aluminium, battery and solar manufacturing, with a background in plasma physics."
+body_class: home
+permalink: /
+redirect_from:
+  - /about/
+  - /about.html
+  - /bio/
+  - /bio.html
+---
+{% assign p = site.data.profile %}
+<section class="hero" aria-labelledby="hero-title">
+  <canvas class="hero__canvas" aria-hidden="true"></canvas>
+  <div class="wrap hero__content">
+    <p class="hero__role">{{ p.role }} at <a href="{{ p.org_url }}">IFE</a>, {{ p.location }}</p>
+    <h1 id="hero-title" class="hero__title">Sayan<br>Adhikari</h1>
+    <p class="hero__lede">{{ p.tagline }}</p>
+    <div class="hero__actions">
+      <a class="btn btn--light" href="{{ '/research/' | relative_url }}">See my research</a>
+      <a class="btn btn--ghost" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <div class="wrap hero__legend">
+    <p>
+      <span class="dot dot--e"></span>electrons
+      <span class="dot dot--i"></span>ions
+      <span class="hero__hint">Live particle simulation in a magnetic field. Your pointer is a biased probe; click to flip its polarity.</span>
+    </p>
+    <button class="hero__pause" type="button" aria-pressed="false">Pause</button>
+  </div>
+</section>
+
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="wrap about">
+    <figure class="about__photo">
+      <img src="{{ p.photo | relative_url }}" alt="Portrait of Sayan Adhikari" width="720" height="720" loading="lazy">
+    </figure>
+    <div class="about__text prose">
+      <h2 id="about-title">From plasma sheaths to production lines</h2>
+      <p>I am a computational physicist in the <a href="https://ife.no/en/">Institute for Energy Technology</a>'s Computational Materials Processing group near Lillestrøm, Norway. I develop mathematical models and the software around them: finite element and multiphysics solvers, the data infrastructure that feeds them live measurements, and the AI layer that makes them usable by people on the factory floor.</p>
+      <p>My current work is with manufacturers in aluminium, battery and solar production, where I build digital twins of casting and extrusion processes and explore how agentic AI can automate simulation workflows. I take an active part in shaping research projects with industry, writing proposals for the Research Council of Norway and Horizon Europe.</p>
+      <p>Before IFE I spent a decade in plasma physics. I earned my Ph.D. at the Centre of Plasma Physics in India modelling magnetised plasma sheaths, then joined the University of Oslo to simulate Langmuir probes and spacecraft charging for missions such as the Emirates Lunar Mission's Rashid rover.</p>
+      <dl class="facts">
+        <div><dt>Experience</dt><dd>12+ years in numerical modelling and code development</dd></div>
+        <div><dt>Publications</dt><dd>{{ site.data.publications | size }} papers, preprints and proceedings; cited {{ p.scholar_stats.citations }} times, h-index {{ p.scholar_stats.h_index }} <span class="muted">(Google Scholar, {{ p.scholar_stats.as_of }})</span></dd></div>
+        <div><dt>Programming</dt><dd>Python, C/C++, Fortran, MATLAB, Java</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" aria-labelledby="themes-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="themes-title">What I work on</h2>
+      <a class="textlink" href="{{ '/research/' | relative_url }}">Research in detail</a>
+    </div>
+    <div class="themes">
+      {% for t in site.data.research %}
+      <article class="theme theme--{{ t.id }}">
+        <div class="theme__glyph" aria-hidden="true">{% include glyph.html id=t.id %}</div>
+        <h3>{{ t.title }}</h3>
+        <p>{{ t.summary }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="now-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="now-title">Projects</h2>
+    </div>
+    <ul class="projects">
+      <li class="project">
+        <p class="project__when">2026 – 2030</p>
+        <div>
+          <h3>SAGA, Smart Aluminium for Grid and Energy Applications</h3>
+          <p>Innovation project for the industrial sector (IPN) led by Hydro Aluminium, funded by the Research Council of Norway. Aluminium wire rod for the power grid with more post-consumer scrap and stable electrical properties. I work on casting and rolling simulation, physics-informed surrogates and agentic AI for the production line.</p>
+        </div>
+      </li>
+      <li class="project">
+        <p class="project__when">2026</p>
+        <div>
+          <h3>PDE-Agents, LLM agents that run real simulations</h3>
+          <p>A team of LLM agents that turns a plain-language description of a physics problem into a verified finite element simulation. It runs on local open models, so geometry and material data never leave the site, and every reasoning step is logged for audit. It now drives our aluminium casting code and OpenFOAM cases such as battery anode slurry mixing. <a href="https://arxiv.org/abs/2606.07850">Preprint on arXiv</a>, <a href="https://digipro-centre.no/">DigiPro webinar, 2026</a>.</p>
+        </div>
+      </li>
+      <li class="project">
+        <p class="project__when">2022 – present</p>
+        <div>
+          <h3>SUCCEED and FLEX4FACT, digital twins for polymer extrusion</h3>
+          <p>I lead IFE's part of SUCCEED, an IPN project with Inaventa Solar, Omipa, Solvay and Fraunhofer ISE that builds a real-time digital twin of the extrusion line for high-performance polymer solar collectors. The same line is a use case in the Horizon Europe project FLEX4FACT, where we combine CFD and thermal models of the die with live process data and machine learning.</p>
+        </div>
+      </li>
+      <li class="project">
+        <p class="project__when">2020 – 2022</p>
+        <div>
+          <h3>Langmuir probe on the Rashid lunar rover</h3>
+          <p>At the University of Oslo I modelled the plasma environment of the probe instrument built for the Emirates Lunar Mission, alongside probe studies for NanoMagSat and Daedalus within the 4DSpace initiative.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--alt" aria-labelledby="pubs-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="pubs-title">Recent publications</h2>
+      <a class="textlink" href="{{ '/publications/' | relative_url }}">All {{ site.data.publications | size }} publications</a>
+    </div>
+    <ol class="publist">
+      {% assign featured = site.data.publications | where: "featured", true %}
+      {% for pub in featured limit: 4 %}{% include pub.html pub=pub %}{% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="path-title">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="path-title">Path so far</h2>
+      <a class="textlink" href="{{ '/cv/' | relative_url }}">Full CV</a>
+    </div>
+    <ol class="timeline timeline--compact">
+      {% for e in site.data.cv.experience %}
+      <li>
+        <p class="timeline__when">{{ e.period }}</p>
+        <p class="timeline__what"><strong>{{ e.title }}</strong>, {{ e.org }}</p>
+      </li>
+      {% endfor %}
+      <li>
+        <p class="timeline__when">2019</p>
+        <p class="timeline__what"><strong>Ph.D. in Plasma Physics</strong>, Gauhati University, India</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap contact__inner">
+    <div>
+      <h2 id="contact-title">Let's work together</h2>
+      <p>I am happy to talk about industrial modelling projects, digital twins, agentic AI for simulation, or consortia for Norwegian and European calls.</p>
+    </div>
+    <div class="contact__links">
+      <a class="btn btn--light" href="mailto:{{ p.email }}">{% include icon.html name="mail" %} {{ p.email }}</a>
+      <a class="btn btn--ghost" href="https://www.linkedin.com/in/sayan-adhikari/">{% include icon.html name="linkedin" %} Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>

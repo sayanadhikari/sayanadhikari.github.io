@@ -1,0 +1,28 @@
+name: "Sayan Adhikari"
+honorific: "Ph.D."
+role: "Research Scientist"
+org: "Institute for Energy Technology (IFE)"
+org_url: "https://ife.no/en/"
+department: "Computational Materials Processing (MatPro)"
+location: "Kjeller, Norway"
+email: "sayan.adhikari@ife.no"
+photo: "/images/sayan_profile.png"
+
+tagline: "I build simulation and data tools that let industry see inside its own processes, from finite element models of aluminium casting to agentic AI that sets up the simulations for you."
+
+scholar_stats:
+  citations: 285
+  h_index: 10
+  i10_index: 10
+  as_of: "October 2026"
+
+links:
+  - { name: "Google Scholar", url: "https://scholar.google.com/citations?user=Spae6ssAAAAJ&hl=en", icon: scholar }
+  - { name: "ORCID", url: "https://orcid.org/0000-0002-9316-3292", icon: orcid }
+  - { name: "LinkedIn", url: "https://www.linkedin.com/in/sayan-adhikari/", icon: linkedin }
+  - { name: "GitHub", url: "https://github.com/sayanadhikari", icon: github }
+  - { name: "ResearchGate", url: "https://www.researchgate.net/profile/Sayan-Adhikari", icon: researchgate }
+  - { name: "IFE profile", url: "https://ife.no/en/employee/sayan-adhikari/", icon: ife }
+
+languages: [English, Bengali, Hindi, Assamese]
+interests: [Travelling, Hiking, Photography, Cooking, Home automation, Tinkering with Raspberry Pi]

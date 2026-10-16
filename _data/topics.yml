@@ -1,0 +1,9 @@
+industry: "Digital twins and AI"
+space: "Space plasma"
+lab: "Laboratory and dusty plasma"
+sheath: "Sheath physics"
+fusion: "Fusion devices"
+types:
+  journal: "Journal article"
+  preprint: "Preprint"
+  conference: "Conference"
